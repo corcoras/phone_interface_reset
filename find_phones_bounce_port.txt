@@ -1,0 +1,595 @@
+
+>>> for i in lines:
+...     if '#' in i and 'sho cdp n' in i:
+...         #print(i)
+...         devicelist = i.split('#')
+...         devicestring = devicelist[0]
+...         print('')
+...         print('-' * 20)
+...         print(devicestring)
+...         print('-' * 20)
+...         print('')
+...         print('config t')
+...     if 'SEP' in  i:
+...         #print(i)
+...         interfacelist = i.split(" ")
+...         #print(interfacelist)
+...         interfacestring = 'interface ' + interfacelist[2] + ' ' + interfacelist[3]
+...         print(interfacestring)
+...         print('shut')
+...         print('no shut')
+...
+
+--------------------
+s1-71054028
+--------------------
+
+config t
+interface Gig 1/0/26
+shut
+no shut
+interface Gig 1/0/4
+shut
+no shut
+interface Gig 1/0/2
+shut
+no shut
+interface Gig 1/0/15
+shut
+no shut
+interface Gig 1/0/25
+shut
+no shut
+interface Gig 1/0/43
+shut
+no shut
+interface Gig 1/0/7
+shut
+no shut
+interface Gig 1/0/19
+shut
+no shut
+interface Gig 1/0/29
+shut
+no shut
+interface Gig 1/0/22
+shut
+no shut
+interface Gig 1/0/9
+shut
+no shut
+interface Gig 1/0/38
+shut
+no shut
+interface Gig 1/0/11
+shut
+no shut
+interface Gig 1/0/35
+shut
+no shut
+interface Gig 1/0/44
+shut
+no shut
+interface Gig 1/0/33
+shut
+no shut
+interface Gig 1/0/1
+shut
+no shut
+interface Gig 1/0/48
+shut
+no shut
+interface Gig 1/0/23
+shut
+no shut
+interface Gig 1/0/42
+shut
+no shut
+interface Gig 1/0/10
+shut
+no shut
+interface Gig 1/0/36
+shut
+no shut
+
+--------------------
+s10-71054028-AUDI_Sales
+--------------------
+
+config t
+
+--------------------
+s11-71054028-Detail_Shop
+--------------------
+
+config t
+interface Gig 1/0/6
+shut
+no shut
+
+--------------------
+s2-71054028
+--------------------
+
+config t
+interface Gig 1/0/16
+shut
+no shut
+interface Gig 1/0/37
+shut
+no shut
+interface Gig 1/0/36
+shut
+no shut
+interface Gig 1/0/12
+shut
+no shut
+interface Gig 1/0/3
+shut
+no shut
+interface Gig 1/0/11
+shut
+no shut
+interface Gig 1/0/25
+shut
+no shut
+interface Gig 1/0/14
+shut
+no shut
+interface Gig 1/0/31
+shut
+no shut
+interface Gig 1/0/23
+shut
+no shut
+interface Gig 1/0/22
+shut
+no shut
+interface Gig 1/0/10
+shut
+no shut
+interface Gig 1/0/9
+shut
+no shut
+
+--------------------
+s3-71054028
+--------------------
+
+config t
+interface Gig 1/0/33
+shut
+no shut
+interface Gig 1/0/26
+shut
+no shut
+interface Gig 1/0/27
+shut
+no shut
+interface Gig 1/0/32
+shut
+no shut
+interface Gig 1/0/42
+shut
+no shut
+interface Gig 1/0/25
+shut
+no shut
+interface Gig 1/0/43
+shut
+no shut
+interface Gig 1/0/17
+shut
+no shut
+interface Gig 1/0/30
+shut
+no shut
+interface Gig 1/0/44
+shut
+no shut
+interface Gig 1/0/13
+shut
+no shut
+interface Gig 1/0/28
+shut
+no shut
+interface Gig 1/0/39
+shut
+no shut
+interface Gig 1/0/10
+shut
+no shut
+interface Gig 1/0/18
+shut
+no shut
+interface Gig 1/0/29
+shut
+no shut
+interface Gig 1/0/21
+shut
+no shut
+interface Gig 1/0/20
+shut
+no shut
+
+--------------------
+s4-71054028
+--------------------
+
+config t
+interface Gig 1/0/20
+shut
+no shut
+interface Gig 1/0/22
+shut
+no shut
+interface Gig 1/0/37
+shut
+no shut
+interface Gig 1/0/33
+shut
+no shut
+interface Gig 1/0/19
+shut
+no shut
+interface Gig 1/0/21
+shut
+no shut
+interface Gig 1/0/16
+shut
+no shut
+interface Gig 1/0/14
+shut
+no shut
+interface Gig 1/0/15
+shut
+no shut
+interface Gig 1/0/35
+shut
+no shut
+interface Gig 1/0/36
+shut
+no shut
+
+--------------------
+s5-71054028-MB_HYU_Shop
+--------------------
+
+config t
+interface Gig 1/0/40
+shut
+no shut
+interface Gig 1/0/27
+shut
+no shut
+interface Gig 1/0/34
+shut
+no shut
+interface Gig 1/0/36
+shut
+no shut
+interface Gig 1/0/38
+shut
+no shut
+interface Gig 1/0/15
+shut
+no shut
+interface Gig 1/0/33
+shut
+no shut
+interface Gig 1/0/4
+shut
+no shut
+interface Gig 1/0/18
+shut
+no shut
+interface Gig 1/0/26
+shut
+no shut
+interface Gig 1/0/3
+shut
+no shut
+interface Gig 1/0/22
+shut
+no shut
+interface Gig 1/0/7
+shut
+no shut
+interface Gig 1/0/6
+shut
+no shut
+interface Gig 1/0/37
+shut
+no shut
+interface Gig 1/0/9
+shut
+no shut
+interface Gig 1/0/5
+shut
+no shut
+interface Gig 1/0/41
+shut
+no shut
+interface Gig 1/0/1
+shut
+no shut
+interface Gig 1/0/39
+shut
+no shut
+
+--------------------
+s6-71054028-AUDI_Shop
+--------------------
+
+config t
+interface Gig 1/0/22
+shut
+no shut
+interface Gig 1/0/4
+shut
+no shut
+interface Gig 1/0/3
+shut
+no shut
+interface Gig 1/0/8
+shut
+no shut
+interface Gig 1/0/13
+shut
+no shut
+interface Gig 1/0/23
+shut
+no shut
+interface Gig 1/0/2
+shut
+no shut
+interface Gig 1/0/24
+shut
+no shut
+interface Gig 1/0/25
+shut
+no shut
+interface Gig 1/0/15
+shut
+no shut
+interface Gig 1/0/1
+shut
+no shut
+interface Gig 1/0/6
+shut
+no shut
+
+--------------------
+s7-71054028-HYU_Showroom
+--------------------
+
+config t
+interface Gig 1/0/41
+shut
+no shut
+interface Gig 1/0/12
+shut
+no shut
+interface Gig 1/0/31
+shut
+no shut
+interface Gig 1/0/39
+shut
+no shut
+interface Gig 1/0/47
+shut
+no shut
+interface Gig 1/0/7
+shut
+no shut
+interface Gig 1/0/26
+shut
+no shut
+interface Gig 1/0/27
+shut
+no shut
+interface Gig 1/0/15
+shut
+no shut
+interface Gig 1/0/23
+shut
+no shut
+interface Gig 1/0/45
+shut
+no shut
+interface Gig 1/0/29
+shut
+no shut
+interface Gig 1/0/21
+shut
+no shut
+interface Gig 1/0/38
+shut
+no shut
+interface Gig 1/0/13
+shut
+no shut
+interface Gig 1/0/37
+shut
+no shut
+interface Gig 1/0/6
+shut
+no shut
+interface Gig 1/0/9
+shut
+no shut
+interface Gig 1/0/34
+shut
+no shut
+interface Gig 1/0/4
+shut
+no shut
+interface Gig 1/0/36
+shut
+no shut
+interface Gig 1/0/33
+shut
+no shut
+interface Gig 1/0/5
+shut
+no shut
+interface Gig 1/0/2
+shut
+no shut
+interface Gig 1/0/43
+shut
+no shut
+interface Gig 1/0/1
+shut
+no shut
+interface Gig 1/0/30
+shut
+no shut
+interface Gig 1/0/22
+shut
+no shut
+interface Gig 1/0/8
+shut
+no shut
+
+--------------------
+s8-71054028-MB_SalesBldg
+--------------------
+
+config t
+interface Gig 1/0/6
+shut
+no shut
+interface Gig 1/0/41
+shut
+no shut
+interface Gig 1/0/12
+shut
+no shut
+interface Gig 1/0/7
+shut
+no shut
+interface Gig 1/0/1
+shut
+no shut
+interface Gig 1/0/5
+shut
+no shut
+interface Gig 1/0/27
+shut
+no shut
+interface Gig 1/0/15
+shut
+no shut
+interface Gig 1/0/2
+shut
+no shut
+interface Gig 1/0/21
+shut
+no shut
+interface Gig 1/0/26
+shut
+no shut
+interface Gig 1/0/4
+shut
+no shut
+interface Gig 1/0/14
+shut
+no shut
+interface Gig 1/0/28
+shut
+no shut
+interface Gig 1/0/44
+shut
+no shut
+interface Gig 1/0/22
+shut
+no shut
+interface Gig 1/0/35
+shut
+no shut
+interface Gig 1/0/31
+shut
+no shut
+interface Gig 1/0/3
+shut
+no shut
+interface Gig 1/0/24
+shut
+no shut
+interface Gig 1/0/39
+shut
+no shut
+interface Gig 1/0/13
+shut
+no shut
+interface Gig 1/0/40
+shut
+no shut
+interface Gig 1/0/37
+shut
+no shut
+interface Gig 1/0/11
+shut
+no shut
+
+--------------------
+s9-71054028-AUDI_Sales
+--------------------
+
+config t
+interface Gig 1/0/12
+shut
+no shut
+interface Gig 1/0/17
+shut
+no shut
+interface Gig 1/0/6
+shut
+no shut
+interface Gig 1/0/32
+shut
+no shut
+interface Gig 1/0/31
+shut
+no shut
+interface Gig 1/0/33
+shut
+no shut
+interface Gig 1/0/35
+shut
+no shut
+interface Gig 1/0/21
+shut
+no shut
+interface Gig 1/0/25
+shut
+no shut
+interface Gig 1/0/19
+shut
+no shut
+interface Gig 1/0/28
+shut
+no shut
+interface Gig 1/0/45
+shut
+no shut
+interface Gig 1/0/29
+shut
+no shut
+interface Gig 1/0/3
+shut
+no shut
+interface Gig 1/0/8
+shut
+no shut
+interface Gig 1/0/23
+shut
+no shut
+interface Gig 1/0/27
+shut
+no shut
+interface Gig 1/0/16
+shut
+no shut
+>>>
